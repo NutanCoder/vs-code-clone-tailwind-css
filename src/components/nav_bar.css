@@ -1,0 +1,77 @@
+.nav-height {
+  height: 58px;
+}
+
+.logo {
+  font-size: 20px;
+  letter-spacing: -0.2px;
+  font-weight: 600;
+}
+
+.download-btn {
+  background-color: #0078d4;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.nav-items {
+  list-style: none
+}
+
+.nav-items li {
+  display: inline;
+  padding: 0px 16px;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.mobile-nav-items {
+  list-style: none;
+  display: none;
+}
+
+.mobile-nav-items li {}
+
+.mobile-nav-items li a {
+  display: block;
+  padding: 6px 16px;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.mobile-nav-items li a:hover {
+  background-color: #222;
+  color: #efefef;
+  transition: 0.3s;
+}
+
+.nav-mobile-button {
+  padding: 6px 16px;
+  border: none;
+  background: none;
+  color: black;
+  font-size: 24px;
+  font-weight: 600;
+  cursor: pointer;
+  display: none;
+}
+
+@media (max-width:920px) {
+  .nav-mobile-button {
+    display: initial;
+  }
+
+  .nav-items,
+  .download-btn {
+    display: none;
+  }
+
+  .mobile-nav-items {
+    display: initial;
+  }
+}

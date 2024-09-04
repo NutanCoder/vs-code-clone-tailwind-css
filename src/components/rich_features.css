@@ -1,0 +1,60 @@
+#rich-features {
+  margin-top: 90px;
+  /* margin-bottom: 90px; */
+}
+
+.rich-feature-header {
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+.rich-feature-header h3 {
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.rich-feature-header p {
+  font-weight: 500;
+  line-height: 1.5;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.feature-card {
+  background-color: rgba(0, 0, 0, 0.01);
+  border: 1px rgba(0, 0, 0, 0.10) solid;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.feature-card:hover {
+  border: 1px rgba(0, 0, 0, 0.30) solid;
+  transition: 0.5s;
+}
+
+.feature-card img {
+  height: 48px;
+  width: 48px;
+  padding: 12px;
+  margin-bottom: 20px;
+  background-color: rgba(0, 0, 0, 0.04);
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.feature-card h4 {
+  color: #242424;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.feature-card p {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 500;
+  color: #333333;
+}

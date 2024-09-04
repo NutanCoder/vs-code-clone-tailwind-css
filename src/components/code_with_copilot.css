@@ -1,0 +1,25 @@
+#copilot {
+  margin-top: 90px;
+  margin-bottom: 90px;
+}
+
+#copilot img {}
+
+#copilot h3 {
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+#copilot p {
+  font-weight: 500;
+  line-height: 1.5;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+#copilot a {
+  text-decoration: underline;
+  font-weight: 500;
+  color: #005fb8;
+}
